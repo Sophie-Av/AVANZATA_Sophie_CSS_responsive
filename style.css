@@ -1,0 +1,27 @@
+@media only screen and (min-width: 800px) {
+  header {
+    background-color: lightblue;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+.container {
+ display: flex;
+    padding: 10px;
+  }
+
+ #un {
+ 	justify-content: flex-start;
+ }
+ #deux {
+ 	justify-content: flex-end;
+ }
+}
+
+@media print {
+footer {
+background-color: background-color: yellow;
+padding: 10px;
+	}
+}
