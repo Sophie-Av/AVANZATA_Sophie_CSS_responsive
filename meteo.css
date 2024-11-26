@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+
+  .maincontainer {
+ display: flex;
+ flex-direction: row;
+    padding: 10px;
+  }
+.container {
+ display: flex;
+ flex-direction: row;
+    padding: 10px;
+  }
+ .containersmol {
+ display: block;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) and (max-height: 480px) {
+
+  .maincontainer {
+ display: flex;
+ flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+  }
+.container {
+ display: flex;
+ flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+  }
+ .containersmol {
+ display: flex;
+ flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+  }
+}
